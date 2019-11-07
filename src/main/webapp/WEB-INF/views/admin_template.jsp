@@ -20,9 +20,9 @@
   <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/dist/css/AdminLTE.min.css">
-  <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/dist/css/skins/skin-black.css">
+  
+  <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/dist/css/style.css">
+  
   <!-- Morris chart -->
   <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/bower_components/morris.js/morris.css">
   <!-- jvectormap -->
@@ -47,7 +47,7 @@
 <body class="hold-transition skin-black sidebar-mini">
 <div class="wrapper">
 
-  <header class="main-header">
+  <header class="main-header bg-img">
     <!-- Logo -->
     <a href="/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -56,7 +56,7 @@
       <span class="logo-lg"><img src="${pageContext.request.contextPath }/resources/dist/img/logox.png" class="user-image" alt="User Image"></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
+    <nav class="navbar navbar-static-top bg-img">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
@@ -112,7 +112,7 @@
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
-  <aside class="main-sidebar">
+  <aside class="main-sidebar bg-img">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       
@@ -136,7 +136,7 @@
 <%--          <li><a href="${pageContext.request.contextPath }/admin/master/user"><i class="fa fa-circle-o"></i> User</a></li> --%>
         
         <li><a href="${pageContext.request.contextPath }/member"><i class="fa fa-user-o "></i> Member</a></li>
-        <li><a href="${pageContext.request.contextPath }/asset"><i class="fa fa-user-o "></i> Asset</a></li>
+        <li><a href="${pageContext.request.contextPath }/asset"><i class="fa fa-list"></i> Asset</a></li>
         
         
 <!--         <li class="treeview"> -->
@@ -311,7 +311,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.18
     </div>
-    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights
+    <strong>Copyright &copy; 2019 <a href="https://adminlte.io">Mandiri Utama Finance</a>.</strong> All rights
     reserved.
   </footer>
 

@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Master User
+        Master Asset
 
       </h1>
       <ol class="breadcrumb">
@@ -21,7 +21,7 @@
     
     <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Display EDIT USER FORM</h3>
+              <h3 class="box-title">Display EDIT Asset FORM</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

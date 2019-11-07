@@ -7,12 +7,12 @@
 <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Master User
+        Master Member
 
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-book"></i> Home</a></li>
-        <li class="active">User</li>
+        <li class="active">Member</li>
       </ol>
     </section>
 
@@ -21,7 +21,7 @@
     
     <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Display All User Data In Table</h3>
+              <h3 class="box-title">Display All Member Data In Table</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

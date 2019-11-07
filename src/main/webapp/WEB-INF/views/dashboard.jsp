@@ -50,7 +50,7 @@
 		    </section>
             </div>
             <!-- /.box-body -->
-          </div>
+        
       
     </section>
     <!-- /.content --> 

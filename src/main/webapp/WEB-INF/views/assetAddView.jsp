@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Master User
+        Master Asset
 
       </h1>
       <ol class="breadcrumb">
