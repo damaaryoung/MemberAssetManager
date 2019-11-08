@@ -28,7 +28,13 @@ public class MasterController {
 
 
 	@RequestMapping("/")
-	public String memberMain(Model model) {
+	public String memberLogin(Model model) {
+
+		return "login";
+	}
+	
+	@RequestMapping("/dashboard")
+	public String memberDashboard(Model model) {
 		List<Member> listMembers = memberService.listAll();
 		model.addAttribute("listMembers", listMembers);
 		return "dashboard";

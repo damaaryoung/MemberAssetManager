@@ -9,9 +9,12 @@
 		<put-attribute name="content" value=""></put-attribute>
 	</definition>
 	
+	
+	
 	<definition name="dashboard" extends="mytemplate">
 		<put-attribute name="content" value="/WEB-INF/views/dashboard.jsp"></put-attribute>
 	</definition>
+	
 	
 	<!-- member view -->
 	

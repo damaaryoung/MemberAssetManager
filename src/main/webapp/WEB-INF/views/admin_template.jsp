@@ -49,7 +49,7 @@
 
   <header class="main-header bg-img">
     <!-- Logo -->
-    <a href="/" class="logo">
+    <a href="/dashboard" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><img src="${pageContext.request.contextPath }/resources/dist/img/logox.png" class="user-image" alt="User Image"></span>
       <!-- logo for regular state and mobile devices -->
@@ -75,7 +75,7 @@
               <li class="user-header">
                 <img src="${pageContext.request.contextPath }/resources/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
-                <p>
+                <p class="text-black">
                   Damar Alexander Grahita - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
@@ -101,7 +101,7 @@
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="${pageContext.request.contextPath }/" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
