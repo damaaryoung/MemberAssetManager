@@ -61,7 +61,7 @@
          			<!-- display the update link --> 
          			<a class="btn btn-primary" href="${updateLink}"> <i class="fa fa-pencil-square-o"></i></a>
          | 			<a class="btn btn-danger" href="${deleteLink}"
-         			onclick="if (!(confirm('Are you sure you want to delete this user?'))) return false"> <i class="fa fa-trash"></i></a>
+         			onclick="if (!(confirm('Are you sure you want to delete this member?'))) return false"> <i class="fa fa-trash"></i></a>
         		</td>
 
        			</tr>
